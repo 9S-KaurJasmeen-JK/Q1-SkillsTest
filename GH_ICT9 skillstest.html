@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Club Application Form</title>
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #dce5ea;
+    margin: 0;
+    padding: 30px;
+}
+.container {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+ h1 {
+    text-align: center;
+    color: #17648a;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #17648a;
+    font-size: 18px;
+}
+p {
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+    </style>
+
+<h1>Robotics Club Application Form</h1>
+
+<form>
+   <h2>Name</h2>
+    <fieldset>
+        <legend>Student Information</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <br>
+        
+        <label for="grade">Grade Level:</label>
+        <select name="grade" id="grade">
+            <option value="7">Grade 7</option>
+            <option value="8">Grade 8</option>
+            <option value="9">Grade 9</option>
+            <option value="10">Grade 10</option>
+            
+        </select>
+    </fieldset>
+
+    <h2>SKILLS </h2>
+    <fieldset>
+        <legend>What are your skills?</legend>
+
+        <input type="checkbox" name="coding">
+        <label for="coding">Coding</label>
+        <br>
+
+        <input type="checkbox" name="design">
+        <label for="design">Design</label>
+        <br>
+
+        <input type="checkbox" name="electronics">
+        <label for="electronics">Electronics</label>
+        <br>
+    </fieldset>
+
+     
+    <h2>Tell us why u would like to join:</h2>
+    <fieldset>
+        <legend>Tell us why you want to join:</legend>
+
+        <textarea name="reason" id="reason"></textarea>
+    </fieldset>
+
+    <!-- ACTIVITIES -->
+    <fieldset>
+        <legend>Top Robotics Activities We Offer:</legend>
+
+        <li>Line following robots</li>
+        <li>Obstacle avoiding robots</li>
+        <li>Light Following Robot</li>
+       
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Submit Application">
+
+</form>
+ <footer>
+        © 2026 Robotics Club Application | Created by Jasmeen Kaur 9-Sapphire
+ <footer>
+
+
+</body>
+</html>
